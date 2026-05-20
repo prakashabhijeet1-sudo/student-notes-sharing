@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Notes Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Notes Sharing Website</h1>
+    </header>
+
+    <div class="container">
+
+        <h2>Upload Notes</h2>
+
+        <input type="text" id="title" placeholder="Enter note title">
+
+        <input type="text" id="subject" placeholder="Enter subject">
+
+        <input type="text" id="author" placeholder="Enter author name">
+
+        <button onclick="uploadNote()">
+            Upload Note
+        </button>
+
+        <hr>
+
+        <h2>Available Notes</h2>
+
+        <div id="notesContainer"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
